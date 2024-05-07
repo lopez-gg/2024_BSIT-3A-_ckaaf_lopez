@@ -1,0 +1,199 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    box-sizing: border-box;
+    background-color: #020411;
+    color: #BDA0B2;
+    font-family: Inter;
+    font-size: larger;
+}
+
+
+.topnav a {
+    text-decoration: none;
+    color: #BDA0B2;
+}
+
+.topnav {
+    position: fixed;
+    width: 100%;
+    height: 4.5rem;
+    flex-shrink: 0;
+    background-color: #051632;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+}
+
+.topnav ul {
+    list-style: none; /* Remove default list styles */
+    display: flex;
+    align-items: center; /* Center vertically */
+    gap: 5.125rem;
+    
+}
+
+.soc-icons {
+    position: fixed;
+    top: 50%; /* Vertically center the icons */
+    left: 0; /* Align to the left side of the screen */
+    transform: translateY(-50%); /* Adjust to perfectly center vertically */
+    display: flex;
+    flex-direction: column;
+}
+
+.bi {
+    margin: 15px; /* Adjust spacing between icons if needed */
+    font-size: 2rem;
+    padding: 15px;
+}
+
+
+.contents {
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 2rem;
+}
+
+.portfolio {
+    color: var(--30, #BDA0B2);
+    font-family: Inter;
+    font-size: 9rem;
+    font-style: italic;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.landingsec {
+    margin-left:15%;
+    margin-right: 15%;
+    margin-bottom: 10%;
+    margin-top: 10%;
+    padding: 3rem;
+}
+
+.landingsec p {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+.dl { 
+    display: grid;
+    width: 100px;
+    padding: 0.7em;
+    border-radius: 2em;
+    background-color: #BDA0B2;
+    color:#051632;
+    text-align: center;
+    text-decoration: none;
+    font-size: medium;
+    justify-self: center;
+    
+}
+
+.dls {
+    grid-template-columns: 120px 120px;
+    display: grid;
+    gap: 20px;
+    justify-content: center;
+}
+
+.inquire-btn {
+    width: 233px;
+    padding: 0.8em;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 1em;
+    background-color: #214565;
+    color: #BDA0B2;
+    font-size: 20px;
+    font-style: normal;
+    text-align: center;
+    grid-column: span 2;
+    text-decoration: none;
+    }
+
+.content-container {
+    color: #B8B4C2;
+
+}
+
+/* .about{
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    background-color: #214565;
+    
+    
+
+} */
+
+.abtt{
+    background-color: #214565;
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    color: #B8B4C2;
+    letter-spacing: 3px;
+}
+.about {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color: #214565;
+}
+
+.about-content {
+    flex: 1; /* Each column takes up equal space */
+}
+
+.about img {
+    height: 50px;
+    width: 50px;
+    margin-right: 10px; /* Optional: Adjust spacing between image and text */
+}
+
+
+.skills {
+    text-align: center; /* Center the text within the section */
+    
+}
+
+.skills {
+    text-align: center; /* Center the text within the section */
+    background-color: #214565;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 8%;
+}
+
+.centered {
+    letter-spacing: 3px;
+    color:#B8B4C2;
+    font-weight:900;
+    margin-top: 100px;
+    margin-bottom: 50px; /* Optional: Adjust spacing between paragraph and icons */
+}
+
+.skill-icons {
+    text-align: center; /* Center the icons horizontally */
+}
+
+.skill-icons svg {
+    display: inline-block; /* Make SVGs behave like inline elements */
+    width: 50px; /* Set a fixed width for SVGs */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 20px; /* Adjust spacing between SVGs */
+}
+
+
