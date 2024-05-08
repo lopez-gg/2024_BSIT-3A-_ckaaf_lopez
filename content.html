@@ -26,11 +26,11 @@
     <!-- top navigation -->
     <header class="topnav">
         <ul>
-            <a href="#">Homepage</a>
-            <a href="#">About</a>
-            <a href="#">Projects</a>
-            <a href="#">Services</a>
-            <a href="#">Contact</a>
+            <a href="#landingsec">Homepage</a>
+            <a href="#abtt">About</a>
+            <a href="#projt">Projects</a>
+            <a href="#servt">Services</a>
+            <a href="#cont-h">Contact</a>
         </ul>
     </header>
 
@@ -39,7 +39,7 @@
     
         <!-- landing section -->
             <div class="landingsec">
-                <p class="portfolio">Portfolio</p><br>
+                <p class="portfolio" id="landingsec">Portfolio</p><br>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Alias sit optio possimus sunt ullam ipsam fugit minima.</p>
             
 
@@ -53,7 +53,7 @@
 
 
         <!-- about -->
-        <div class="abtt"><h1>About Me</h1></div>
+        <div class="abtt" id="abtt"><h1>About Me</h1></div>
         <section class="about">
             <div class="about-content">
                 <img src="pf.jpeg" alt="profile" style="height: auto; width: 210px; margin: 20px;">
@@ -68,7 +68,7 @@
         
             
         <section class="skills">
-            <p class="centered">KNOWLEDGEABLE IN</p>
+            <p class="centered" id="centered">KNOWLEDGEABLE IN</p>
             <div class="skill-icons">
                 <svg >
                 <image xlink:href="proglogos/html-5-logo-svgrepo-com.svg" width="50" height="50"/>
@@ -96,9 +96,9 @@
         
 
         <!-- projects -->
-        <div class="projt"><h1>My Projects</h1></div>
+        <div class="projt" id="projt"><h1>My Projects</h1></div>
         <section class="projects">   
-            <div class="pfol" onclick="">
+            <div class="pfol">
                 <div class="pfol-overlay"></div>
             </div>
             <div class="pfol">
@@ -110,18 +110,19 @@
         </section>
 
         <!-- services -->
-        <section class="services">   
-            <p>Service #1</p>
-            <p>Service #2</p>
-            <p>Service #3</p>
-            <p>Service #4</p>
+        <div class="servt" id="servt"><h1>My Services</h1></div>
+        <section class="services"> 
+                <a href="service1" target="_blank">Service 1</a>
+                <a href="service2" target="_blank">Service 2</a>
+                <a href="service3" target="_blank">Service 3</a>
+                <a href="service4" target="_blank">Service 4</a> 
         </section>
 
             
 
         <!-- contact -->
-            <div class="contact">
-                <p>Want to avail my services? Contact Me!</p>
+        <h1 id="cont-h">Want to inquire about my services? Contact Me!</h1>
+            <div class="contact" >
                 <form action="">
                     <fieldset>
                         Name:
@@ -135,19 +136,21 @@
                         <input type="text" name="email" id="email">
                     </fieldset>
 
+                    <fieldset>
                     <label for="message"></label><br>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Write your message here!"></textarea>
+                    <textarea name="message" id="message" cols="40" rows="10" placeholder="Write your message here!"></textarea>
 
-                    <input type="button" name="submit" id="submit" value="submit">
+                    <br>
+                    <input type="button" name="submit" id="submit" value="Submit">
+                    </fieldset>
                 </form>
             </div>
 
             <footer>
-                    <i class="bi bi-geo-alt-fill">Philippines</i>
-                    <i class="bi bi-telephone-fill">09092354737</i>
-                    <i class="bi bi-envelope-fill">gelalopez1204@gmail.com</i>
-                    <small>&copy;2024 | Angela Lopez</small>
-                    <a href="#top"><i class="bi bi-arrow-up-circle-fill"></i></a>
+                <i class="bi bi-geo-alt-fill">Philippines</i>
+                <i class="bi bi-telephone-fill">09092354737</i>
+                <i class="bi bi-envelope-fill">gelalopez1204@gmail.com</i>
+                <small>&copy;2024 | Angela Lopez</small>
             </footer>
     <!-- </div> -->
 <script src="js/bootstrap.min.js"></script>  

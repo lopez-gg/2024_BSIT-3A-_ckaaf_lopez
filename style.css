@@ -24,6 +24,7 @@ body {
     display: flex;
     align-items: center; /* Center vertically */
     justify-content: center; /* Center horizontally */
+    z-index: 2;
 }
 
 .topnav ul {
@@ -34,7 +35,7 @@ body {
     
 }
 
-.topnav a:hover, a::marker{
+.topnav a:hover{
     color: #4b84b6;
 }
 
@@ -141,7 +142,6 @@ body {
 
 
 .abtt{
-    
     display: flex;
     justify-content: center;
     padding-top: 100px;
@@ -199,7 +199,7 @@ body {
     margin: 0 20px; 
 }
 
-.projt{
+.projt, #cont-h{
     display: flex;
     justify-content: center;
     padding-top: 30px;
@@ -215,6 +215,8 @@ body {
     padding-left: 20%;
     padding-right: 20%;
     padding-bottom: 70px;
+    margin-bottom: 10%;
+    position: relative;
 }
 
 .pfol{
@@ -237,7 +239,6 @@ body {
     align-content: center;
     color: #BDA0B2;
     font-family: calibri;
-    margin-top: 100px;
     position: absolute;
     bottom: -100%;
     left: 0;
@@ -266,3 +267,123 @@ body {
 }
 
 
+.servt{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    padding-top: 70px;
+    color: #B8B4C2;
+    letter-spacing: 3px;
+    background-color: #214565;
+    padding-bottom: 30px;
+}
+.services{
+    background-color: #214565;
+    padding-bottom: 100px;
+}
+
+.services a{
+    display: flex;
+    background-color: #BDA0B2;
+    width: 300px;
+    align-self: center;
+    margin: auto;
+    margin-bottom: 20px;
+    padding: 1rem;
+    justify-content: center;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+    font-size: 30px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #051632;
+}
+
+.services a:hover {
+    transform: scale(1.1);
+    background-color: #d184b4;
+}
+
+.contact{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 70px;
+    margin-bottom: 10%;
+}
+
+#name, #email{
+    display: flex;
+    width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    border: none;
+    margin: 10px;
+    background-color: #B8B4C2;
+    
+}
+
+fieldset{
+    padding: 5px;
+    padding-bottom: none;
+    border: none;
+}
+
+textarea{
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+    padding: 2rem;
+    color: #020411;
+    background-color: #B8B4C2;
+}
+
+#submit{
+    display: flex;
+    width: 300px;
+    padding: 1rem;
+    border-radius: 50px;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: center;
+    background-color: #4b84b6;
+    color: #020411;
+    font-size: larger;
+    border: 3px solid#BDA0B2;
+}
+
+#submit:hover{
+    background-color: #214565;
+    color: #BDA0B2;
+}
+
+footer{
+    padding: 5%;
+    background-color: #051632;
+    
+    
+}
+
+.bi-geo-alt-fill, .bi-telephone-fill, .bi-envelope-fill {
+    font-size: 20px; /* Adjust the font size of the text */
+    width: 20px; /* Adjust the width of the icon */
+    height: 20px; /* Adjust the height of the icon */
+    display: inline-flex; /* Ensure the icon and text are displayed inline */
+    align-items: center; /* Vertically align the icon and text */
+    margin-left: 230px;
+}
+
+.bi-geo-alt-fill::before, .bi-telephone-fill::before,  .bi-envelope-fill::before {
+    font-size: 20px; /* Adjust the font size of the icon */
+    margin-right: 5px;
+}
+
+
+
+small{
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+}
